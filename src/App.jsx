@@ -4,6 +4,8 @@ import { Footer } from "./components/Footer"
 import "./App.css"
 import { About } from "./pages/About"
 import { Proyect } from "./pages/Proyect"
+import { Equipo } from "./pages/Equipo"
+import { Personajes } from "./pages/Personajes"
 
 
 export const App = () => {
@@ -14,6 +16,8 @@ export const App = () => {
       <Footer />
       <About />
       <Proyect />
+      <Equipo/>
+      <Personajes/>
       
     </>
 
