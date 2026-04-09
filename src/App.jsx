@@ -5,7 +5,6 @@ import "./App.css"
 import { About } from "./pages/About"
 import { Proyect } from "./pages/Proyect"
 
-
 export const App = () => {
   return (
     <>
@@ -15,7 +14,6 @@ export const App = () => {
       <About />
       <Proyect />
 
-      
     </>
 
   )

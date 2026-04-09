@@ -29,7 +29,7 @@ export const Equipo = () => {
             </div>
           </div>
 
-          {/* Miembro 2 — Isabel */}
+          {/* Miembro 2 — Ostin */}
           <div className="equipo-card d-flex align-items-center gap-4 mb-4 p-3">
             <img
               src="https://placehold.co/80x80/cccccc/333333?text=Isabel"
@@ -37,7 +37,7 @@ export const Equipo = () => {
               className="equipo-avatar"
             />
             <div>
-              <h6 className="fw-bold mb-0">Isabel</h6>
+              <h6 className="fw-bold mb-0">Ostin</h6>
               <p className="text-muted mb-1" style={{ fontSize: "0.85rem" }}>
                 Narrativa y Creatividad 🖊️
               </p>
