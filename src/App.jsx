@@ -3,6 +3,7 @@ import { Header } from "./components/Header"
 import { Home } from "./pages/Home"
 import "./App.css"
 import { About } from "./pages/About"
+import { Footer } from "./components/Footer"
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
     <Header />
     {/* <Home /> */}
     <About />
+    <Footer />
     </>
   )
 }
