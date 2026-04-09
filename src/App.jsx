@@ -3,6 +3,9 @@ import { Home } from "./pages/Home"
 import { Footer } from "./components/Footer"
 import "./App.css"
 import { About } from "./pages/About"
+import { Contacto } from "./pages/Contacto"
+import { Equipo } from "./pages/Equipo"
+import { Personajes } from "./pages/Personajes"
 
 export const App = () => {
   return (
@@ -11,6 +14,9 @@ export const App = () => {
       <Home />
       <Footer />
       <About />
-    </>
+      <Contacto />
+      <Equipo />
+      <Personajes />
+     </>
   )
 }
