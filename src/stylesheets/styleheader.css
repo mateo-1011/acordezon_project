@@ -1,0 +1,11 @@
+/* styleheader.css */
+
+.navbar .nav-link {
+  color: #222 !important;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.navbar .nav-link:hover {
+  color: #c0392b !important;
+}

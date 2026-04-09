@@ -1,0 +1,44 @@
+/* stylefooter.css */
+
+.footer-section {
+  background-color: #f5f0eb;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23a0856a' fill-opacity='0.07'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.97rem;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #c0392b;
+}
+
+.social-icon {
+  color: #333;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.social-icon:hover {
+  color: #c0392b;
+}
+
+.footer-divider {
+  border-color: #ccc;
+  opacity: 0.5;
+}
+
+.footer-legal-link {
+  text-decoration: underline;
+  color: #555;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.footer-legal-link:hover {
+  color: #c0392b;
+}

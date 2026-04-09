@@ -1,0 +1,74 @@
+/* stylehome.css */
+
+/* ── Variables de color ── */
+:root {
+  --color-rojo: #c0392b;
+  --color-cafe: #7B4A2D;
+  --color-fondo-faq: #f5f0eb;
+  --color-fondo-contacto: #f0ebe4;
+}
+
+/* ── SECCIÓN 1: Hero ── */
+.hero-section {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.min-vh-80 {
+  min-height: 80vh;
+}
+
+.hero-title {
+  color: var(--color-rojo);
+  line-height: 1.2;
+  font-size: 2.4rem;
+}
+
+.btn-hero {
+  background-color: var(--color-rojo);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.btn-hero:hover {
+  background-color: #a93226;
+  color: #fff;
+}
+
+.hero-img {
+  object-fit: cover;
+  height: 100%;
+  min-height: 480px;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .hero-img {
+    min-height: 260px;
+  }
+}
+
+/* ── SECCIÓN 2: Misión y Visión ── */
+.mision-section {
+  background-color: var(--color-cafe);
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.letter-spacing-wide {
+  letter-spacing: 0.12em;
+}
+
+/* ── SECCIÓN 3: FAQ ── */
+.faq-section {
+  background-color: var(--color-fondo-faq);
+}
+
+/* ── SECCIÓN 4: Contacto ── */
+.contacto-section {
+  background-color: var(--color-fondo-contacto);
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23a0856a' fill-opacity='0.08'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
