@@ -14,6 +14,7 @@ export const App = () => {
       <Footer />
       <About />
       <Proyect />
+
       
     </>
 
