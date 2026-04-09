@@ -1,0 +1,35 @@
+.about {
+  background-color: #f5f1e8;
+}
+
+/* TEXTO */
+.about-text {
+  max-width: 90%;
+}
+
+@media (min-width: 768px) {
+  .about-text {
+    max-width: 600px;
+  }
+}
+
+/* CARD */
+.idea-card {
+  border-radius: 15px;
+}
+
+/* ICONO */
+.icono {
+  font-size: 30px;
+  background-color: #ffeeba;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* LOGO */
+.logo-container {
+  background-color: white;
+  border: 2px solid #0d6efd;
+  border-radius: 10px;
+}
