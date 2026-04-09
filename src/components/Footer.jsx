@@ -6,6 +6,7 @@ export const Footer = () => {
     <div>
         <H1>HAHAHA</H1>
     </div>
+    
     </>
   )
 }
