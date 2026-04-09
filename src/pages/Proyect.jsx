@@ -26,7 +26,7 @@ export const Proyect = () => {
       {/* IMAGEN HERO */}
       <div className="container-fluid px-0">
         <img
-          src="/img/escenario1.jpg"
+          src="../public/images/image_23.png"
           alt="escenario"
           className="img-fluid w-100"
         />
@@ -46,7 +46,7 @@ export const Proyect = () => {
             
             <div className="col-12 col-md-4 mb-3 mb-md-0">
               <img
-                src="/img/proceso.jpg"
+                src="../public/images/process.png"
                 alt="proceso"
                 className="img-fluid rounded"
               />
@@ -75,7 +75,7 @@ export const Proyect = () => {
 
             <div className="col-12 col-md-4 mb-3 mb-md-0">
               <img
-                src="/img/personajes.jpg"
+                src="../public/images/personajes.png"
                 alt="personajes"
                 className="img-fluid rounded"
               />
@@ -106,7 +106,7 @@ export const Proyect = () => {
       {/* IMAGEN FINAL */}
       <div className="container-fluid px-0">
         <img
-          src="/img/escenario2.jpg"
+          src="../public/images/escenario.png"
           alt="escenario"
           className="img-fluid w-100"
         />

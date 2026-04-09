@@ -50,7 +50,7 @@ export const About = () => {
       <div className="container text-center py-4 py-md-5">
         <div className="logo-container p-3 p-md-5">
           <img
-            src="/logo.png"
+            src="../public/images/imagevideo"
             alt="logo"
             className="img-fluid"
           />
