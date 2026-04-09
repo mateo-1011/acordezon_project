@@ -23,7 +23,7 @@ export const Proyect = () => {
         </p>
       </div>
 
-      {/* IMAGEN HERO */}
+      {/* IMAGEN */}
       <div className="container-fluid px-0">
         <img
           src="../public/images/image_23.png"
